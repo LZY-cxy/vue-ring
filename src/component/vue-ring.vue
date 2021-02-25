@@ -16,7 +16,6 @@ export default {
             default: {
                 width: 150,
                 height: 150,
-                ringContainerId: "canvas-ring",
                 progressColor: "#1479E1",
                 ringBackgroundColor: "#eee",
                 numerator: 186,
@@ -32,6 +31,7 @@ export default {
     },
     data() {
         return {
+            ringContainerId: 'canvas-ring'
         }
     },
     mounted() {
@@ -43,7 +43,7 @@ export default {
         },
         drawRing() {
             // 基本参数
-            var canvas = document.getElementById(this.option.ringContainerId),
+            var canvas = document.getElementById(this.ringContainerId),
                 ctx = canvas.getContext('2d'),
                 dpr = window.devicePixelRatio,
                 // 中心x坐标
