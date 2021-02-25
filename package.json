@@ -1,12 +1,15 @@
 {
   "name": "v-circle-ring",
   "description": "A ring plugin based on Vue",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "author": "LZY <LUO_Z_Y@163.com>",
   "keywords": [
     "Vue2",
     "v-circle-ring",
     "ring"
+  ],
+  "files": [
+    "dist"
   ],
   "main": "dist/v-circle-ring.js",
   "license": "MIT",
