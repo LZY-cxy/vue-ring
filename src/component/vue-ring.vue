@@ -1,7 +1,7 @@
 <template>
     <div id="ring">
         <div class="canvas-ring">
-            <canvas :id="option.ringContainerId" :width="option.width" :height="option.height">
+            <canvas :id="ringContainerId" :width="option.width" :height="option.height">
                 <p>您的设备当前暂不支持canvas</p>
             </canvas>
         </div>
